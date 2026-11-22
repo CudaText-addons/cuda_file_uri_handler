@@ -8,8 +8,8 @@ fn_config = os.path.join(app_path(APP_DIR_SETTINGS), 'cuda_file_uri_handler.json
 _config_json = """
 {
   "dirs_to_check":[
-    
-  ]   
+
+  ]
 }
 """
 prefix = 'file:///'
@@ -44,7 +44,7 @@ class Command:
       
     found = False
     if is_rel:
-      f = ed_self.get_filename()
+      f = ed_self.get_prop(PROP_FN, '')
       curdir,filename = os.path.split(f)
       
       dirs = [curdir, *user_dirs]  if f else  user_dirs 

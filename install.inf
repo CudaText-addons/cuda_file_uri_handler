@@ -3,7 +3,7 @@ title=file URI handler
 desc=Opens file:/// links in CudaText
 type=cudatext-plugin
 subdir=cuda_file_uri_handler
-homepage=https://github.com/halfbrained/cuda_file_uri_handler
+homepage=https://github.com/CudaText-addons/cuda_file_uri_handler
 
 [item1]
 section=events
